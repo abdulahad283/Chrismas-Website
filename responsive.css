@@ -1,0 +1,215 @@
+.container {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .hero-section .wrapper .hero-image img {
+    width: 25rem;
+    height: 100%;
+  }
+
+  .hero-section .wrapper .hero-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-section .wrapper .hero-content button {
+    padding: 1rem 2.5rem 1rem 2.5rem;
+  }
+
+  .celebrate .wrapper {
+    padding: 3.25rem 1rem;
+    gap: 1.5rem;
+  }
+
+  .celebrate .wrapper .celebrate-img img {
+    width: 22rem;
+    height: 100%;
+  }
+
+  .celebrate .wrapper .celebrate-content h3 {
+    font-size: 1.3rem;
+  }
+
+  .celebrate .wrapper .celebrate-content p {
+    font-size: 0.9rem;
+  }
+
+  .message-section .wrapper {
+    gap: 0.06rem;
+  }
+
+  .message-section .wrapper .message-content form button {
+    width: 100%;
+  }
+
+  footer .wrapper .img-2 {
+    bottom: 1.56rem;
+    left: 41.75rem;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+  body {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+
+  .navbar .nav-links ul {
+    display: none;
+  }
+
+  .navbar {
+    padding: 1.06rem 1.5rem 1.06rem 1.5rem;
+  }
+
+  .navbar .nav-links .nav-toggle .menu-toggle {
+    display: block;
+  }
+
+  .hero-section .wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 1.37rem 1.25rem 1.51rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1.125rem;
+    text-align: center;
+  }
+  .hero-section .wrapper .hero-image {
+    width: 20rem;
+    height: 22rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-section .wrapper .hero-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-section .wrapper .hero-content p {
+    margin-bottom: 3rem;
+  }
+
+  .giving-section .wrapper .giving-section-row {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 1.75rem 2.5rem;
+    justify-content: center;
+  }
+
+  .celebrate .wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 56.88rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .celebrate .wrapper .celebrate-content p {
+    padding: 0 2rem;
+  }
+
+  .celebrate .wrapper .celebrate-content button {
+    padding: 1rem 4rem;
+  }
+
+  .gifts-section .wrapper .gifts {
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+  }
+
+  .message-section .wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 2.5rem;
+    max-width: 35rem;
+    width: 100%;
+  }
+
+  .message-section .wrapper .message-content form button {
+    width: 100%;
+  }
+
+  footer .wrapper {
+    display: flex;
+    justify-self: center;
+    gap: 5rem;
+  }
+
+  footer .wrapper .links-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    padding-left: 1.5rem;
+  }
+
+  footer .wrapper .links-section .links-col {
+    margin-bottom: 2rem;
+  }
+
+  footer .wrapper .img-1 {
+    bottom: 12.19rem;
+    left: 17.75rem;
+  }
+
+  footer .wrapper .img-2 {
+    bottom: 4.19rem;
+    left: 36.75rem;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+
+  .hero-section .wrapper .hero-content h1 {
+    font-size: 1.7rem;
+  }
+
+  .hero-section .wrapper .hero-content p {
+    margin-bottom: 3rem;
+  }
+
+  footer .wrapper .links-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 1.5rem;
+  }
+
+  footer .wrapper .img-1 {
+    bottom: 34.19rem;
+    left: 18.75rem;
+  }
+
+  footer .wrapper .img-2 {
+    bottom: 16.19rem;
+    left: 25.75rem;
+  }
+}
